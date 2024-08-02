@@ -37,6 +37,13 @@ ol {
   padding-left: 0;
 }
 
+
+button {
+  cursor: pointer;
+}
+
+
+
 .container {
   width: 320px;
   margin: 0 auto;
@@ -67,12 +74,13 @@ ol {
 .header-flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .navigation {
   align-items: center;
   display: flex;
-  margin-right: 332px;
+  /*margin-right: 332px;*/
 }
 
 .main-link-web {
@@ -93,8 +101,9 @@ ol {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  display: flex;
-  /*margin-right: 76px;*/
+  /*display: flex;
+  margin-right: 76px;*/
+  display: block;
   padding: 16px 0;
 }
 
@@ -176,6 +185,17 @@ ol {
   /*display: flex;*/
   display: none;
   margin-left: 0px;
+}
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.burger-icon {
+  display: block;
+  fill: #2f2f37;
 }
 
 /* FIRST SECTION  */
